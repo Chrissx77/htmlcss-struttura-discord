@@ -34,7 +34,7 @@ body {
 
 .logo {
     flex-basis: 25%;
-    
+
     /* DEBUG */
     background-color: orange;
 }
@@ -43,16 +43,16 @@ body {
     flex-basis: 25%;
     text-align: right;
 
-     /* DEBUG */
-     background-color: orange;
+    /* DEBUG */
+    background-color: orange;
 }
 
 .link {
     flex-basis: 50%;
     text-align: center;
 
-     /* DEBUG */
-     background-color: orange;
+    /* DEBUG */
+    background-color: orange;
 }
 
 /* HERO STYLE */
@@ -78,33 +78,58 @@ body {
 }
 
 /* MAIN STYLE */
-.main-container .container {
+main .container{
     display: flex;
     margin: 50px auto;
     justify-content: center;
 }
 
-.blue-box {
+.image-box {
     flex-basis: 75%;
     width: 750px;
     height: 500px;
-    
+
 
     /* DEBUG */
     background-color: blue;
     border: 3px dashed black;
 }
 
-.pink-box {
+.text-box {
     flex-basis: 25%;
     width: 250px;
     height: 500px;
 
+    /* DEBUG */
+    background-color: pink;
+    border: 3px dashed black;
+}
+
+.text-box-middle {
+    flex-basis: 25%;
+    width: 250px;
+    height: 500px;
+    order: -1;
+
+    /* DEBUG */
+    background-color: pink;
+    border: 3px dashed black;
+}
+
+.image-box-foot{
+    width: 1000px;
+    height: 1000px;
+
      /* DEBUG */
-     background-color:pink;
+     background-color: green;
      border: 3px dashed black;
 }
 
-.main-container > div:nth-child(2){
+.placeholder, main .container{
+    padding: 5px;
+}
+
+.placeholder{
     background-color: gray;
 }
+
