@@ -97,7 +97,6 @@ main .container{
 
 .text-box {
     flex-basis: 25%;
-    width: 250px;
     height: 500px;
 
     /* DEBUG */
@@ -107,7 +106,6 @@ main .container{
 
 .text-box-middle {
     flex-basis: 25%;
-    width: 250px;
     height: 500px;
     order: -1;
 
