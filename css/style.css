@@ -1,4 +1,4 @@
-
+/* RESET STYLE */
 :root {
     font-family: "Whitney", ‘Helvetica Neue’, Helvetica, Arial, sans-serif;
     font-size: 25px;
@@ -10,6 +10,7 @@ body {
     padding: 0;
 }
 
+/* NAVBAR STYLE */
 .nav-container {
     background-color: aqua;
 }
@@ -22,7 +23,7 @@ body {
 #navBar {
     display: flex;
     height: 100px;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
 
@@ -40,8 +41,27 @@ body {
     text-align: right;
 }
 
-.link{
+.link {
     flex-basis: 50%;
     text-align: center;
+}
 
+/* HERO STYLE */
+.hero-container {
+    background-color: darkblue;
+}
+
+.hero-container>.container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+#hero {
+    margin: 50px 50px;
+    width: 1000px;
+    height: 500px;
+    background-color: palevioletred;
+    border: 3px dashed black;
 }
