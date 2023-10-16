@@ -11,7 +11,7 @@ body {
 }
 
 /* NAVBAR STYLE */
-.nav-container {
+header {
     background-color: aqua;
 }
 
@@ -22,7 +22,7 @@ body {
 
 #navBar {
     display: flex;
-    height: 100px;
+    min-height: 100px;
     justify-content: center;
     align-items: center;
 }
@@ -69,7 +69,7 @@ body {
 
 #hero {
     margin: 50px 50px;
-    width: 1000px;
+    flex-basis: 100%;
     height: 500px;
 
     /* DEBUG */
@@ -117,8 +117,8 @@ main .container{
 }
 
 .image-box-foot{
-    width: 1000px;
-    height: 1000px;
+    width: 100%;
+    height: 900px;
 
      /* DEBUG */
      background-color: green;
@@ -130,6 +130,62 @@ main .container{
 }
 
 .placeholder{
-    background-color: gray;
+    background-color: rgb(223, 223, 223);
 }
 
+/* FOOTER STYLE */
+footer{
+    background-color: rgb(75, 75, 75);
+}
+
+footer > .container{
+    display: flex;
+    padding: 50px 0;
+    
+}
+
+.socials{
+    flex-basis: 25%;
+    height: 750px;
+
+    /* DEBUG */
+    background-color: pink;
+    border: 3px dashed black;
+}
+
+.about{
+    flex-basis: 75%;
+    height: 750px;
+    display: flex;
+
+     /* DEBUG */
+     background-color: blue;
+     border: 3px dashed black;
+}
+
+.info{
+    flex-basis: 33%;
+    height: 750px;
+
+    /* DEBUG */
+    background-color: transparent;
+    border: 2px dashed white;
+}
+
+.nav-footer{
+    flex-basis: 100%;
+    min-height: 100px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-footer button{
+    margin: 20px 0;
+    font-size: 30px;
+
+    /* DEBUG */
+    border: 2px dashed black;
+    background-color: pink;
+    
+}
